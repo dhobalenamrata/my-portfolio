@@ -1,0 +1,17 @@
+.btn1 {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: rgb(85, 147, 232);
+    color: #222;
+    border: 1px solid #fff;
+    border-radius: 3px 3px 3px 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.content :hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: 0.8s;
+}

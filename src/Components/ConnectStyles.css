@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200;300;400&display=swap');
+
+.Connectclass {
+    font-family: 'Chivo Mono', monospace;
+}
+
+.Connectclass {
+    background-image: url('../Images/cnct.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.Connectclass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Connectclass h1 {
+    padding-top: 9rem;
+    padding-bottom: 1rem;
+}
+
+
+form {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    font-size: 16px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+input:focus {
+    /* background-color: lightblue; */
+    border: 3px solid rgb(250, 188, 31);
+}
+
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+
+    /* &:focus {
+              border: 2px solid rgba(0, 206, 158, 1);
+          } */
+}
+
+textarea:focus {
+    /* background-color: lightblue; */
+    border: 3px solid rgb(250, 188, 31);
+}
+
+label {
+    margin-top: 1rem;
+}
+
+input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    border: none;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+/* 
+.intro-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.mask ::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+}
+
+.intro-img {
+    opacity: 0.3;
+} */
+
+
+.About {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    padding-top: 5rem;
+    background-image: url('../Images/cnct.jpg');
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.left-img {
+    padding: 3rem;
+}
+
+.about-img {
+    height: 60vh;
+    border-radius: 25%;
+}
+
+.rgt-content h1,
+p {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1.5rem;
+}
+
+.rgt-content p {
+    font-size: 20px;
+}
+
+.rgt-content h1 {
+    font-size: 40px;
+}
+
+.social {
+    padding: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.LI svg:hover {
+    fill: #f57c19;
+}
+
+.em svg:hover {
+    fill: red;
+}
+
+.insta svg:hover {
+    fill: #e11d74;
+}
+
+.twt svg:hover {
+    fill: #00adb5;
+}
+
+@media screen and (max-width:640px) {
+    .About {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* font-size: 5px; */
+        padding-top: 25rem;
+        padding-bottom: 25rem;
+        /* padding: 0.6rem 0 1.5rem; */
+    }
+
+    .rgt-content {
+        font-size: 1.4rem;
+        font-weight: 200;
+    }
+
+
+
+    /* .left-img {
+        /* margin-top: 2rem; */
+
+    /* 
+.rgt-content {
+    padding-bottom: 20rem;
+} */
+
+
+    /* .hero .content p {
+        font-size: 1.4rem;
+        /* font-weight: 200; */
+    /* text-transform: uppercase; */
+}

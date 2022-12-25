@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+.Footer {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.social {
+    padding: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.LI svg:hover {
+    fill: #f57c19;
+}
+
+.em svg:hover {
+    fill: red;
+}
+
+.insta svg:hover {
+    fill: #e11d74;
+}
+
+.twt svg:hover {
+    fill: #00adb5;
+}
+
+
+.nameMade h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #fcec03;
+    font: 400;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.nameMade p {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.findMe p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1040px) {
+
+    .Footer {
+        /* height: 30vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .nameMade {
+        margin-bottom: 3rem;
+    }
+
+    .social {
+        padding: 1rem;
+        /* margin-top: 1rem; */
+    }
+
+
+    .nameMade h1 {
+        font-family: 'Dancing Script', cursive;
+        color: #fcec03;
+        font: 300;
+        font-size: 35px;
+        padding: 5px;
+    }
+
+    .nameMade p {
+        font-size: 15px;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .findMe p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 15px;
+    }
+
+}
